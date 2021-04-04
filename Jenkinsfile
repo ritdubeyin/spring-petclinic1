@@ -29,7 +29,6 @@ stage('Test') {
 
   stage('BUILD') {
     steps {
-    sh 'ls'
     sh 'pwd'
     sh 'chmod 777 mvnw'
     sh './mvnw package'
